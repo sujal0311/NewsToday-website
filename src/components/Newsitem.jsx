@@ -8,7 +8,7 @@ export default class Newsitem extends Component {
       animate={{ x: "0%" }}
         whileHover={{ scale: 1.05 }}
       >
-        <div className="card mb-4 h-100 ">
+        <div className="card mb-4 h-100 " >
        <div style={{display:"flex",
       justifyContent:"flex-end",position:"absolute",right:'0'}}> <span className="badge rounded pill bg-info">
     {source}</span></div>
